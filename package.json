@@ -1,0 +1,41 @@
+{
+  "name": "pad",
+  "version": "6.0.7",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "~1.14.1",
+    "composable-middleware": "^0.3.0",
+    "compression": "~1.6.0",
+    "cookie-parser": "~1.4.0",
+    "ejs": "~2.3.4",
+    "epm": ">=1.0.3",
+    "epm-pad-engine": ">=1.0.1",
+    "errorhandler": "~1.4.2",
+    "express": "~4.13.3",
+    "express-session": "~1.11.3",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1",
+    "log": "^1.4.0",
+    "method-override": "~2.3.5",
+    "mime": "^1.3.4",
+    "moment": "^2.10.6",
+    "morgan": "~1.6.1",
+    "osenv": "^0.1.3",
+    "progress": "^1.1.8",
+    "q": "^1.4.1",
+    "serve-favicon": "~2.3.0",
+    "serve-index": "^1.7.2"
+  },
+  "main": "index.html",
+  "window": {
+    "icon": "assets/img/favicon24.png",
+    "width": 1024,
+    "height": 600,
+    "title": "PAD",
+    "position": "center",
+    "toolbar": false,
+    "fullscreen": false,
+    "frame": true
+  },
+  "chromium-args": "--enable-experimental-web-platform-features --enable-threaded-compositing"
+}
