@@ -1,5 +1,7 @@
 'use strict';
 
+process.env.NODE_ENV = 'production';
+
 var osenv = require('osenv');
 var path = require('path');
 var http = require('http');
@@ -103,10 +105,10 @@ function start(document) {
             return cb(config);
           }
       });
+      
+      chooser.trigger('click'); 
 
     });
-
-    chooser.trigger('click'); 
 
     $('init-screen').hide();
     $('#giveMeRepository').show();

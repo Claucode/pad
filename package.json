@@ -1,6 +1,6 @@
 {
   "name": "pad",
-  "version": "6.1.1",
+  "version": "6.1.2",
   "dependencies": {
     "async": "^1.4.2",
     "body-parser": "~1.14.1",
