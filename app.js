@@ -1,6 +1,5 @@
-'use strict';
-
 process.env.NODE_ENV = 'production';
+'use strict';
 
 var osenv = require('osenv');
 var path = require('path');
