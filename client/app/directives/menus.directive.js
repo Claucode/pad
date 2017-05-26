@@ -19,7 +19,7 @@ angular.module('padApp')
           '    </li>',
           '    <li data-target="contacto">',
           '      <a ui-sref="contacto" data-toggle="tooltip" data-placement="right" title="Contacto"><div class="expand"></div></a>',
-          '      <!--<a href="http://servicios2.abc.gov.ar/lainstitucion/organismos/direccion_de_tecnologia_educativa/pad/contacto.html"  target="_blank"',
+          '      <!--<a href="http://contenidos.alfabetizaciondigital.abc.gov.ar/contacto"  target="_blank"',
           '         data-toggle="tooltip" data-placement="bottom" title="Contacto"><div class="expand"></div></a>-->',
           '    </li>',
           '  </ul>',
